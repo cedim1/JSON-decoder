@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>enter your site here</p>
+    <input type="text" id="site">
+    <span style="color: red">*</span>
+    <button onclick="dothis()">Go</button>
+    <script>
+      function dothis() {
+      var doit = document.getElementById("site").value; 
+       open("https://api." + doit)
+      }
+    </script>
+  </body>
+</html>
