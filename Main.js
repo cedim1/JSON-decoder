@@ -6,5 +6,6 @@ function Decode(string, start) {
   var projid = projid + chars.charAt(done);
   var done = done + 1;
   } while(chars.charAt(done) != "}")
+  console.log(projid)
 }
 Decode({"id":996391847}, 7)
